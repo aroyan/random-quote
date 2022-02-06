@@ -23,7 +23,11 @@ function generateRandom() {
     .then((response) => response.json())
     .then(
       (data) => (
-        (text.textContent = data.content), (author.textContent = data.author)
+        (text.textContent = data.content),
+        (author.textContent = data.author),
+        (tweetQuotes.href =
+          'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' +
+          encodeURIComponent('"' + data.content + '" ' + data.author))
       )
     )
     .catch((err) => console.log(err));
