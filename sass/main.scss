@@ -1,0 +1,31 @@
+.card {
+  text-align: center;
+  background: #005c4b;
+  padding: 2em 1em;
+  border-radius: 16px;
+  width: 60%;
+}
+.quote {
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+.author {
+  font-size: 1.25rem;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.random-button {
+  display: block;
+  background: #e9edef;
+  font-weight: 700;
+  color: #005c4b;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-right: 16px;
+}
