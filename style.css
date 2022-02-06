@@ -58,4 +58,10 @@ main {
   margin-right: 16px;
 }
 
+.credit {
+  position: fixed;
+  bottom: 0;
+  color: #070d11;
+}
+
 /*# sourceMappingURL=style.css.map */
